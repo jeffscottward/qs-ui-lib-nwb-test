@@ -1,0 +1,63 @@
+{
+  "name": "qs-ui-lib-nwb-test",
+  "version": "1.0.0",
+  "description": "qs-ui-lib-nwb-test React component",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "sideEffects": false,
+  "files": [
+    "css",
+    "es",
+    "lib",
+    "src",
+    "STYLEGUIDE.md"
+  ],
+  "scripts": {
+    "build": "create-react-styleguide script build",
+    "build:watch": "create-react-styleguide script build:watch",
+    "build:styleguide": "create-react-styleguide script build:styleguide",
+    "clean": "create-react-styleguide script clean",
+    "eslint": "create-react-styleguide script eslint",
+    "eslint:fix": "create-react-styleguide script eslint:fix",
+    "start": "create-react-styleguide script start",
+    "test": "create-react-styleguide script test",
+    "test:coverage": "create-react-styleguide script test:coverage",
+    "test:update": "create-react-styleguide script test:update",
+    "test:watch": "create-react-styleguide script test:watch",
+    "prepublishOnly": "create-react-styleguide script prepublishOnly"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run eslint && npm run test"
+    }
+  },
+  "dependencies": {
+    "emotion": "^9.2.6",
+    "emotion-theming": "^9.2.6",
+    "prop-types": "^15.6.2",
+    "react-emotion": "^9.2.6"
+  },
+  "peerDependencies": {
+    "react": "16.x"
+  },
+  "devDependencies": {
+    "babel-preset-zillow": "^1.0.0-rc.2",
+    "create-react-styleguide": "0.0.17",
+    "enzyme": "^3.4.1",
+    "enzyme-adapter-react-16": "^1.2.0",
+    "enzyme-to-json": "^3.3.4",
+    "eslint-plugin-jest": "^21.21.0",
+    "eslint-plugin-zillow": "^1.0.0-rc.1",
+    "husky": "^1.0.0-rc.13",
+    "jest-emotion": "^9.2.7",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  },
+  "author": "",
+  "homepage": "",
+  "license": "MIT",
+  "repository": "",
+  "keywords": [
+    "react-component"
+  ]
+}
