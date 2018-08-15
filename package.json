@@ -28,7 +28,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run eslint && npm run test"
+      "pre-commit": ""
     }
   },
   "postcss": {
