@@ -4,5 +4,15 @@
             "presets": [["zillow", { "modules": false }]]
         }
     },
-    "presets": ["zillow"]
+    "presets": ["zillow"],
+    "plugins": [
+        [
+            "styled-jsx/babel",
+            {
+                "plugins": [
+                    "styled-jsx-plugin-postcss"
+                ]
+            }
+        ]
+    ]
 }

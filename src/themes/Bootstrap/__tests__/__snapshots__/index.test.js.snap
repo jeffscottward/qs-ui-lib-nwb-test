@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Bootstrap theme primary button 1`] = `
+Object {
+  "&:hover": Object {
+    "backgroundColor": "#0069d9",
+    "borderColor": "#0062cc",
+    "color": "#fff",
+  },
+  "backgroundColor": "#007bff",
+  "border": "1px solid transparent",
+  "borderColor": "#007bff",
+  "borderRadius": ".25rem",
+  "color": "#fff",
+  "display": "inline-block",
+  "fontSize": "1rem",
+  "fontWeight": "400",
+  "lineHeight": "1.5",
+  "padding": ".375rem .75rem",
+  "textAlign": "center",
+  "transition": "color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out",
+  "userSelect": "none",
+  "verticalAlign": "middle",
+  "whiteSpace": "nowrap",
+}
+`;
+
+exports[`Bootstrap theme primary button with outline 1`] = `
+Object {
+  "&:hover": Object {
+    "backgroundColor": "#007bff",
+    "borderColor": "#007bff",
+    "color": "#fff",
+  },
+  "backgroundColor": "transparent",
+  "border": "1px solid transparent",
+  "borderColor": "#007bff",
+  "borderRadius": ".25rem",
+  "color": "#007bff",
+  "display": "inline-block",
+  "fontSize": "1rem",
+  "fontWeight": "400",
+  "lineHeight": "1.5",
+  "padding": ".375rem .75rem",
+  "textAlign": "center",
+  "transition": "color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out",
+  "userSelect": "none",
+  "verticalAlign": "middle",
+  "whiteSpace": "nowrap",
+}
+`;
+
+exports[`Bootstrap theme secondary button 1`] = `
+Object {
+  "&:hover": Object {
+    "backgroundColor": "#5a6268",
+    "borderColor": "#545b62",
+    "color": "#fff",
+  },
+  "backgroundColor": "#6c757d",
+  "border": "1px solid transparent",
+  "borderColor": "#6c757d",
+  "borderRadius": ".25rem",
+  "color": "#fff",
+  "display": "inline-block",
+  "fontSize": "1rem",
+  "fontWeight": "400",
+  "lineHeight": "1.5",
+  "padding": ".375rem .75rem",
+  "textAlign": "center",
+  "transition": "color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out",
+  "userSelect": "none",
+  "verticalAlign": "middle",
+  "whiteSpace": "nowrap",
+}
+`;
+
+exports[`Bootstrap theme secondary button with outline 1`] = `
+Object {
+  "&:hover": Object {
+    "backgroundColor": "#6c757d",
+    "borderColor": "#6c757d",
+    "color": "#fff",
+  },
+  "backgroundColor": "transparent",
+  "border": "1px solid transparent",
+  "borderColor": "#6c757d",
+  "borderRadius": ".25rem",
+  "color": "#6c757d",
+  "display": "inline-block",
+  "fontSize": "1rem",
+  "fontWeight": "400",
+  "lineHeight": "1.5",
+  "padding": ".375rem .75rem",
+  "textAlign": "center",
+  "transition": "color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out",
+  "userSelect": "none",
+  "verticalAlign": "middle",
+  "whiteSpace": "nowrap",
+}
+`;
